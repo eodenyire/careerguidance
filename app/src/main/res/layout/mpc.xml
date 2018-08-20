@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="MPC Group is a part of Science stream. This group is also known as PCM Group. It stands for Physics, Chemistry and Mathematics – the subjects chosen by a student in 12th Science stream.
+"/>
+
+    <Button
+        android:id="@+id/mpcn1"
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:text="next" />
+</LinearLayout>

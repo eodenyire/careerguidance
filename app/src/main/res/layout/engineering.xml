@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <ScrollView android:layout_marginTop="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="ENGINEERING(B.E or B.TECH.)
+                  COURSES  "
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+
+                android:textColor="#F00"
+                android:textSize="19sp" />
+
+
+
+            <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/t2"
+        android:layout_alignBottom="@+id/t1"
+        android:text="
+ These academic programs are 4 years long.
+ The courses content is technical in nature.
+ The academic program consists of classroom
+ lectures and practical Sessions"
+        android:textSize="17sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="List Of Engineering Branches"
+        android:textColor="#616f98"
+        android:textSize="20sp"/>
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/auto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/bullet"
+        android:text="Automobile Engineering"
+        android:padding="2dp"
+        android:textColor="#000"
+        android:textSize="17dp"
+        android:layout_marginTop="10dp"
+
+
+        />
+    <TextView
+        android:id="@+id/agri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/bullet"
+        android:text="Agricultural Engineering"
+        android:padding="2dp"
+        android:textColor="#000"
+        android:textSize="17dp"
+        />
+    <TextView
+        android:id="@+id/Aero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/bullet"
+        android:text="Aeronautical Engineering"
+        android:padding="2dp"
+        android:textColor="#000"
+        android:textSize="17dp"
+        />
+    <TextView
+        android:id="@+id/bio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/bullet"
+        android:text="Bio Technology"
+        android:padding="2dp"
+        android:textColor="#000"
+        android:textSize="17dp"
+        />
+    <TextView
+        android:id="@+id/biochee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/bullet"
+        android:text="Biochemical  Engineering"
+        android:padding="2dp"
+
+        android:textColor="#000"
+        android:textSize="17dp"
+        />
+    <TextView
+        android:id="@+id/civil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/bullet"
+        android:text="Civil  Engineering"
+        android:padding="2dp"
+        android:textColor="#000"
+        android:textSize="17dp"
+        />
+    <TextView
+        android:id="@+id/chem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/bullet"
+        android:text="Chemical and Alcohol Engineering"
+        android:padding="2dp"
+        android:textColor="#000"
+        android:textSize="17dp"
+        />
+    <TextView
+        android:id="@+id/com"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/bullet"
+        android:text="Computer Science Engineering"
+        android:padding="2dp"
+        android:textColor="#000"
+        android:textSize="17dp"
+        />
+    <TextView
+        android:id="@+id/chem1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/bullet"
+        android:text="Chemical  Engineering"
+        android:padding="2dp"
+        android:textColor="#000"
+        android:textSize="17dp"
+        />
+    <TextView
+        android:id="@+id/elec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/bullet"
+        android:text="Electronics and TeleComm Engineering"
+        android:padding="2dp"
+        android:textColor="#000"
+        android:textSize="17dp"
+        />
+    <TextView
+        android:id="@+id/elec1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/bullet"
+        android:text="Electronics Engineering"
+        android:padding="2dp"
+        android:textColor="#000"
+        android:textSize="17dp"
+        />
+    <TextView
+        android:id="@+id/elec2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/bullet"
+        android:text="Electrical and Electronics Engineering"
+        android:padding="2dp"
+        android:textColor="#000"
+        android:textSize="17dp"
+        />
+    <TextView
+        android:id="@+id/envi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/bullet"
+        android:text="ENvironmental Engineering"
+        android:padding="2dp"
+        android:textColor="#000"
+        android:textSize="17dp"
+        />
+    <TextView
+        android:id="@+id/indus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/bullet"
+        android:text="Industrial Production Engineering"
+        android:padding="2dp"
+        android:textColor="#000"
+        android:textSize="17dp"
+        />
+    <TextView
+        android:id="@+id/Instru"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/bullet"
+        android:text="Instrumentation and Control"
+        android:padding="2dp"
+        android:textColor="#000"
+        android:textSize="17dp"
+        />
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/bullet"
+        android:text="Information Technology"
+        android:padding="2dp"
+        android:textColor="#000"
+        android:textSize="17dp"
+        />
+    <TextView
+    android:id="@+id/leather"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:drawableLeft="@drawable/bullet"
+    android:text="Leather Technology"
+        android:padding="2dp"
+    android:textColor="#000"
+    android:textSize="17dp"
+    />
+    <TextView
+        android:id="@+id/marine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/bullet"
+        android:text="Marine Engineering"
+        android:padding="2dp"
+        android:textColor="#000"
+        android:textSize="17dp"
+        />
+    <TextView
+        android:id="@+id/material"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/bullet"
+        android:text="Material Science"
+        android:padding="2dp"
+        android:textColor="#000"
+        android:textSize="17dp"
+        />
+    <TextView
+        android:id="@+id/Mech"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/bullet"
+        android:text="Mechanical and Industrial Engineering"
+        android:padding="2dp"
+        android:textColor="#000"
+        android:textSize="17dp"
+        />
+    <TextView
+        android:id="@+id/mech1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/bullet"
+        android:text="Mechanical Engineering"
+        android:padding="2dp"
+        android:textColor="#000"
+        android:textSize="17dp"
+        />
+    <TextView
+        android:id="@+id/manmade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/bullet"
+        android:text="Man Made Fibre Engineering"
+        android:padding="2dp"
+        android:textColor="#000"
+        android:textSize="17dp"
+        />
+    <TextView
+        android:id="@+id/manufacture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/bullet"
+        android:text="Manufacturing Engineering"
+        android:padding="2dp"
+        android:textColor="#000"
+        android:textSize="17dp"
+        />
+
+    <TextView
+        android:id="@+id/oil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/bullet"
+        android:text="Oil Technology"
+        android:padding="2dp"
+        android:textColor="#000"
+        android:textSize="17dp"
+        />
+
+    <TextView
+        android:id="@+id/metal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/bullet"
+        android:text="Metallurgical Engineering"
+        android:padding="2dp"
+        android:textColor="#000"
+        android:textSize="17dp"
+        />
+
+    <TextView
+        android:id="@+id/prod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/bullet"
+        android:text="Production Engineering"
+        android:padding="2dp"
+        android:textColor="#000"
+        android:textSize="17dp"
+        />
+    <TextView
+        android:id="@+id/prod1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/bullet"
+        android:text="Production and Industrial Engineering"
+        android:padding="2dp"
+        android:textColor="#000"
+        android:textSize="17dp"
+        />
+
+
+    <TextView
+        android:id="@+id/plastic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/bullet"
+        android:text="Plastic Engineering"
+        android:padding="2dp"
+        android:textColor="#000"
+        android:textSize="17dp"
+        />
+
+    <TextView
+        android:id="@+id/textile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/bullet"
+        android:text="Textile Engineering"
+        android:padding="2dp"
+        android:textColor="#000"
+        android:textSize="17dp"
+        />
+
+    <TextView
+        android:id="@+id/textile1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/bullet"
+        android:text="Textile Technology"
+        android:padding="2dp"
+        android:textColor="#000"
+        android:textSize="17dp"
+        />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Top 10 Engineering Courses"
+                android:textColor="#616f98"
+                android:textSize="20sp"/>
+            <TextView
+                android:id="@+id/com1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/bullet"
+                android:text="Computer Engineering"
+                android:padding="2dp"
+                android:textColor="#000"
+                android:textSize="17dp"
+                />
+            <TextView
+                android:id="@+id/elec3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/bullet"
+                android:text="Electrical Engineering"
+                android:padding="2dp"
+                android:textColor="#000"
+                android:textSize="17dp"
+                />
+            <TextView
+                android:id="@+id/mech2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/bullet"
+                android:text="Mechanical Engineering"
+                android:padding="2dp"
+                android:textColor="#000"
+                android:textSize="17dp"
+                />
+            <TextView
+                android:id="@+id/chem2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/bullet"
+                android:text="Chemical Engineering"
+                android:padding="2dp"
+                android:textColor="#000"
+                android:textSize="17dp"
+                />
+            <TextView
+                android:id="@+id/civil1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/bullet"
+                android:text="Civil Engineering"
+                android:padding="2dp"
+                android:textColor="#000"
+                android:textSize="17dp"
+                />
+            <TextView
+                android:id="@+id/marine1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/bullet"
+                android:text="Marine Engineering"
+                android:padding="2dp"
+                android:textColor="#000"
+                android:textSize="17dp"
+                />
+            <TextView
+                android:id="@+id/auto1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/bullet"
+                android:text="Automative Engineering"
+                android:padding="2dp"
+                android:textColor="#000"
+                android:textSize="17dp"
+                />
+            <TextView
+                android:id="@+id/Aero1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/bullet"
+                android:text="Aerospace Engineering"
+                android:padding="2dp"
+                android:textColor="#000"
+                android:textSize="17dp"
+                />
+            <TextView
+                android:id="@+id/bio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/bullet"
+                android:text="Biotechnology"
+                android:padding="2dp"
+                android:textColor="#000"
+                android:textSize="17dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Integrated Engineering Programs"
+                android:textColor="#616f98"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Integrated programs combine both Bachelor's as well as Master's Degree Engineering programs.The course duration is 5 years."
+                android:textColor="#000"
+                android:textSize="20sp"/>
+            <TextView
+                android:id="@+id/be"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/bullet"
+                android:text="B.E.+M.E. Mechanical Engineering"
+                android:padding="2dp"
+                android:textColor="#000"
+                android:textSize="17dp"/>
+            <TextView
+                android:id="@+id/me"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/bullet"
+                android:text="B.Tech.+M.Tech.Electrical Engineering"
+                android:padding="2dp"
+                android:textColor="#000"
+                android:textSize="17dp"/>
+            <TextView
+                android:id="@+id/mba"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/bullet"
+                android:text="B.E.+MBA"
+                android:padding="2dp"
+                android:textColor="#000"
+                android:textSize="17dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="National Level Engineering Entrance Exams"
+                android:textColor="#616f98"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="JEE-Main"
+                android:textColor="#000"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="JEE-Advanced"
+                android:textColor="#000"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BITSAT"
+                android:textColor="#000"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="COMED-K"
+                android:textColor="#000"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="IPU-CET"
+                android:textColor="#000"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Manipal"
+                android:textColor="#000"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="VITEEE"
+                android:textColor="#000"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Manipal"
+                android:textColor="#000"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="State Level Engineering Entrance Exams"
+                android:textColor="#616f98"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="AP EAMCET(Andhra pradesh Engineering,Agriculture and Medical Common Entrance Test)"
+                android:textColor="#000"
+                android:textSize="20sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="TS EAMCET(Telegana State Engineering,Agriculture and Medical Common Entrance Test)"
+                android:textColor="#000"
+                android:textSize="20sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="KCET(Karnataka Common Entrance Test)"
+                android:textColor="#000"
+                android:textSize="20sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="WBJEE(West Bengal Joint Entrance Examination)"
+                android:textColor="#000"
+                android:textSize="20sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="KEAM(Kerala Engg Agriculture Medical Exam)"
+                android:textColor="#000"
+                android:textSize="20sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="CG PET(Chhattisgarh PrevEngineering Test)"
+                android:textColor="#000"
+                android:textSize="20sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="GUJCET(Gujarath Common Entrance Test)"
+                android:textColor="#000"
+                android:textSize="20sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="JK CET(Jammu and Kashmir  Common Entrance Test)"
+                android:textColor="#000"
+                android:textSize="20sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="OJEE(Odisha Joint Entrance Examination)"
+                android:textColor="#000"
+                android:textSize="20sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="UPSEE(Utter Pradesh State Entrance Examination)"
+                android:textColor="#000"
+                android:textSize="20sp"
+                />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
